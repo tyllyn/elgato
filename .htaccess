@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule /([a-z0-9\-]+)/([a-z0-9\-]+)/(.*) /router.php?device=$1&method=$2&args=$3
